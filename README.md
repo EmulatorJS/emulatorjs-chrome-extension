@@ -4,7 +4,7 @@ An emulator for nes, snes, gb, gba and many more that works in a chrome extensio
 <p>adapted from <a href=https://github.com/ethanaobrien/emulatorjs>https://github.com/ethanaobrien/emulatorjs</a> and converted to a chrome extension (I own the base repository)</p>
 <br>
 <h2>How To</h2>
-<br><br>
+<br>
 
 First, make a copy of this repository (Make it private if you want) or download it. do not change any of the files!
 
