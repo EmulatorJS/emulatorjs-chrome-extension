@@ -13,7 +13,7 @@ make a file named index.html and place it in `/html/`, use the code example belo
 
 You supply your own rom. This is an emulator, which is 100% legal. What isn't legal is the rom.
 
-Place the rom in `/html/`
+Place the rom in `/html/` and in the code example where it says 'Url to Game rom' put the rom file name (plus file extension) in between the `''`
 
 <p>For more systems, please go <a href=https://github.com/ethanaobrien/emulatorjs>here</a>, and follow the instructions in the readme. I own both repositories.</p>
 
