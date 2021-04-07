@@ -1,7 +1,7 @@
 <h1>emulatorjs-chrome-extension</h1>
 An emulator for nes, snes, gb, gba and many more that works in a chrome extension! - No web server required!
 <br><br>
-<p>adapted from <a href=https://github.com/ethanaobrien/emulatorjs>https://github.com/ethanaobrien/emulatorjs</a> and converted to a chrome extension</p>
+<p>adapted from <a href=https://github.com/ethanaobrien/emulatorjs>https://github.com/ethanaobrien/emulatorjs</a> and converted to a chrome extension (I own the base repository)</p>
 <br>
 <h2>How To</h2>
 <br><br>
@@ -16,7 +16,7 @@ You supply your own rom. This is an emulator, which is 100% legal. What isn't le
 
 Place the rom in `/html/`
 
-<p>For more systems, please go <a href=https://github.com/ethanaobrien/emulatorjs>here</a>, I own both repositories, the base and the chrome extension adaption.</p>
+<p>For more systems, please go <a href=https://github.com/ethanaobrien/emulatorjs>here</a>, and follow the instructions in the readme. I own both repositories.</p>
 
 <h1>Supported systems!</h1>
 <h2>NES / Famicom</h2>
