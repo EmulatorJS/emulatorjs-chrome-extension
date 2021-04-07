@@ -7,13 +7,15 @@ An emulator for nes, snes, gb, gba and many more that works in a chrome extensio
 
 First, make a copy of this repository (Make it private if you want) or download it. do not change any of the files!
 
-You can specify the icon in `manifest.json`. DO NOT CHANGE ANYTHING ELSE IN `manifest.json` OR YOU COULD BREAK IT!!
+You can specify the icon in `manifest.json`.
 
 make a file named index.html and place it in `/html/`, use the code example below to add your game to the extension.
 
 You supply your own rom. This is an emulator, which is 100% legal. What isn't legal is the rom.
 
 Place the rom in `/html/` and in the code example where it says 'Url to Game rom' put the rom file name (plus file extension) in between the `''`
+
+Once you have everything set up you MUST 1st, launch the extension. 2nd, right click and select inspect and go to the console. 3rd, it will say "failed to excecute because of the content policy" and it will then say the content policy, after the content policy is listed it will say something like `Either the 'unsafe-inline' keyword, a hash ('sha256-...'), or a nonce ('nonce-...') is required to enable inline execution.` Copy the hash it gives you (it will always start with `sha256-`) (If it says `sha256-...` than ignore it). Paste it in the `manifest.json` in the `content_security_policy` section after the other hashes (sepperate them with a space!). This will allow the javascript to run. This is different for every rom and IT WILL NOT WORK UNLESS YOU DO THIS!!
 
 <p>For more systems, please go <a href=https://github.com/ethanaobrien/emulatorjs>here</a>, and follow the instructions in the readme. I own both repositories.</p>
 
