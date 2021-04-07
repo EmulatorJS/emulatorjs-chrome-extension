@@ -5,6 +5,8 @@ An emulator for nes, snes, gb, gba and many more that works in a chrome extensio
 <br>
 <h2>How To</h2>
 
+(It's easy once you get used to it)
+
 First, make a copy of this repository (Make it private if you want) or download it. do not change any of the files!
 
 You can specify the icon in `manifest.json`.
