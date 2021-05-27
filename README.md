@@ -1,7 +1,7 @@
 <h1>emulatorjs-chrome-extension</h1>
 An emulator for nes, snes, gb, gba and many more that works in a chrome extension! - No web server required!
 <br><br>
-<p>adapted from <a href=https://github.com/ethanaobrien/emulatorjs>https://github.com/ethanaobrien/emulatorjs</a> and converted to a chrome extension (I own the base repository)</p>
+<p>adapted from <a href='https://github.com/ethanaobrien/emulatorjs'>https://github.com/ethanaobrien/emulatorjs</a> and converted to a chrome extension (I own the base repository)</p>
 <br>
 <h2>How To</h2>
 
@@ -19,7 +19,7 @@ Place the rom in `/html/` and in the code example where it says 'Url to Game rom
 
 Once you have everything set up you MUST 1st, launch the extension. 2nd, right click and select inspect and go to the console. 3rd, it will say "failed to excecute because of the content policy" and it will then say the content policy, after the content policy is listed it will say something like `Either the 'unsafe-inline' keyword, a hash ('sha256-...'), or a nonce ('nonce-...') is required to enable inline execution.` Copy the hash it gives you (it will always start with `sha256-`) (If it says `sha256-...` than ignore it). Paste it in the `manifest.json` in the `content_security_policy` section after the other hashes (sepperate them with a space!). This will allow the javascript to run. This is different for every rom and IT WILL NOT WORK UNLESS YOU DO THIS!!
 
-<p>For more systems, please go <a href=https://github.com/ethanaobrien/emulatorjs>here</a>, and follow the instructions in the readme. I own both repositories.</p>
+<p>For more systems, please go <a href='https://github.com/ethanaobrien/emulatorjs'>here</a>, and follow the instructions in the readme. I own both repositories.</p>
 
 <h1>Supported systems!</h1>
 <h2>NES / Famicom</h2>
@@ -36,8 +36,9 @@ Code example
     EJS_gameUrl = ''; // Url to Game rom
     EJS_core = 'nes';
     EJS_lightgun = false; // Lightgun
+    EJS_pathtodata = 'data/'; //path to all of the wasm and js files. MUST all be in the same directory!! Must end with /
 </script>
-<script src="loader.js"></script>
+<script src="data/loader.js"></script>
 ```
 Your rom MUST have one of the following extensions
 
@@ -63,8 +64,9 @@ Code Example
     EJS_core = 'snes';
     EJS_mouse = false; // SNES Mouse
     EJS_multitap = false; // SNES Multitap
+    EJS_pathtodata = 'data/'; //path to all of the wasm and js files. MUST all be in the same directory!! Must end with /
 </script>
-<script src="loader.js"></script>
+<script src="data/loader.js"></script>
 ```
 Your rom MUST have one of the following extensions
 
@@ -92,8 +94,9 @@ Code Example
     EJS_player = '#game';
     EJS_gameUrl = ''; // Url to Game rom
     EJS_core = 'n64';
+    EJS_pathtodata = 'data/'; //path to all of the wasm and js files. MUST all be in the same directory!! Must end with /
 </script>
-<script src="loader.js"></script>
+<script src="data/loader.js"></script>
 ```
 I do not know the file extension limits for this system. I know the `.z64` roms work.
 
@@ -112,8 +115,9 @@ Code example
     EJS_biosUrl = '';
     EJS_gameUrl = ''; // Url to Game rom
     EJS_core = 'gb';
+    EJS_pathtodata = 'data/'; //path to all of the wasm and js files. MUST all be in the same directory!! Must end with /
 </script>
-<script src="loader.js"></script>
+<script src="data/loader.js"></script>
 ```
 
 I do not know the file extension limits for this system.
@@ -134,8 +138,9 @@ Code example
     EJS_biosUrl = '';
     EJS_gameUrl = ''; // Url to Game rom
     EJS_core = 'gba';
+    EJS_pathtodata = 'data/'; //path to all of the wasm and js files. MUST all be in the same directory!! Must end with /
 </script>
-<script src="loader.js"></script>
+<script src="data/loader.js"></script>
 ```
 
 I do not know the file extension limits for this system.
@@ -157,8 +162,9 @@ Code example
     EJS_player = '#game';
     EJS_gameUrl = ''; // Url to Game rom
     EJS_core = 'nds';
+    EJS_pathtodata = 'data/'; //path to all of the wasm and js files. MUST all be in the same directory!! Must end with /
 </script>
-<script src="loader.js"></script>
+<script src="data/loader.js"></script>
 ```
 
 I do not know the file extension limits for this system.
@@ -178,8 +184,9 @@ Code example
     EJS_biosUrl = ''; // Url to Bios file
     EJS_gameUrl = ''; // Url to Game rom
     EJS_core = 'psx';
+    EJS_pathtodata = 'data/'; //path to all of the wasm and js files. MUST all be in the same directory!! Must end with /
 </script>
-<script src="loader.js"></script>
+<script src="data/loader.js"></script>
 ```
 Your rom MUST have one of the following extensions
 
@@ -210,10 +217,332 @@ Code example
     EJS_player = '#game';
     EJS_gameUrl = ''; // Url to Game rom
     EJS_core = 'vb';
+    EJS_pathtodata = 'data/'; //path to all of the wasm and js files. MUST all be in the same directory!! Must end with /
 </script>
-<script src="loader.js"></script>
+<script src="data/loader.js"></script>
 ```
 
 I do not know the file extension limits for this system.
 
 There is no bios for this system
+<br><br>
+<h2>Sega Mega Drive</h2>
+
+Code example
+
+```
+<div style="width:640px;height:480px;max-width:100%">
+        <div id="game"></div>
+      </div>
+<script type="text/javascript">
+    EJS_player = '#game';
+    EJS_gameUrl = ''; // Url to Game rom
+    EJS_core = 'segaMD';
+    EJS_pathtodata = 'data/'; //path to all of the wasm and js files. MUST all be in the same directory!! Must end with /
+</script>
+<script src="data/loader.js"></script>
+```
+
+I do not know the file extension limits for this system.
+
+There is no bios for this system
+<br><br>
+<h2>Sega CD</h2>
+
+Code example
+
+```
+<div style="width:640px;height:480px;max-width:100%">
+        <div id="game"></div>
+      </div>
+<script type="text/javascript">
+    EJS_player = '#game';
+    EJS_gameUrl = ''; // Url to Game rom
+    EJS_core = 'segaCD';
+    EJS_pathtodata = 'data/'; //path to all of the wasm and js files. MUST all be in the same directory!! Must end with /
+</script>
+<script src="data/loader.js"></script>
+```
+
+I do not know the file extension limits for this system.
+
+You can find the MegaCD EU BIOS by looking up the md5 sum which is `e66fa1dc5820d254611fdcdba0662372`
+You can find the SegaCD US BIOS by looking up the md5 sum which is `854b9150240a198070150e4566ae1290`
+You can find the MegaCD EU BIOS by looking up the md5 sum which is `278a9397d192149e84e820ac621a8edd`
+<br><br>
+<h2>Atari Lynx</h2>
+
+Code example
+
+```
+<div style="width:640px;height:480px;max-width:100%">
+        <div id="game"></div>
+      </div>
+<script type="text/javascript">
+    EJS_player = '#game';
+    EJS_gameUrl = ''; // Url to Game rom
+    EJS_core = 'lynx';
+    EJS_pathtodata = 'data/'; //path to all of the wasm and js files. MUST all be in the same directory!! Must end with /
+</script>
+<script src="data/loader.js"></script>
+```
+
+I do not know the file extension limits for this system.
+
+There is no bios for this system
+<br><br>
+<h2>MSX</h2>
+
+Code example
+
+```
+<div style="width:640px;height:480px;max-width:100%">
+        <div id="game"></div>
+      </div>
+<script type="text/javascript">
+    EJS_player = '#game';
+    EJS_biosUrl = ''; // Url to Bios file
+    EJS_gameUrl = ''; // Url to Game rom
+    EJS_core = 'msx';
+    EJS_pathtodata = 'data/'; //path to all of the wasm and js files. MUST all be in the same directory!! Must end with /
+</script>
+<script src="data/loader.js"></script>
+```
+
+I do not know the file extension limits for this system.
+
+<p>You can download the 'Databases' and 'Machines' folders from an <a href='http://bluemsx.msxblue.com/download.html'>official full standalone blueMSX emulator installation.</a> Get blueMSXv282full.zip near the bottom of the page.</p>
+Compress the 'Databases' and 'Machines' Folders to 7z or zip archive.
+<br><br>
+<h2>3DO</h2>
+
+Code example
+
+```
+<div style="width:640px;height:480px;max-width:100%">
+        <div id="game"></div>
+      </div>
+<script type="text/javascript">
+    EJS_player = '#game';
+    EJS_biosUrl = ''; // Url to Bios file
+    EJS_gameUrl = ''; // Url to Game rom
+    EJS_core = '3do';
+    EJS_pathtodata = 'data/'; //path to all of the wasm and js files. MUST all be in the same directory!! Must end with /
+</script>
+<script src="data/loader.js"></script>
+```
+
+Your rom MUST have one of the following extensions
+
+```
+.bin
+.cue
+.iso
+```
+
+Panasonic FZ-1	`f47264dd47fe30f73ab3c010015c155b`
+Panasonic FZ-10	`51f2f43ae2f3508a14d9f56597e2d3ce`
+Panasonic FZ-10	`1477bda80dc33731a65468c1f5bcbee9`
+Panasonic FZ-10-E `a48e6746bd7edec0f40cff078f0bb19f`
+Panasonic FZ-10-E `cf11bbb5a16d7af9875cca9de9a15e09`
+Goldstar GDO-101M	`8639fd5e549bd6238cfee79e3e749114`
+Sanyo IMP-21J TRY	`35fa1a1ebaaeea286dc5cd15487c13ea`
+Shootout At Old Tucson	`8970fc987ab89a7f64da9f8a8c4333ff`
+Panasonic FZ-1 Kanji ROM	`b8dc97f778a6245c58e064b0312e8281`
+Panasonic FZ-10JA Kanji ROM	`428577250f43edc902ea239c50d2240d`
+Panasonic FZ-1J Kanji ROM	`c23fb5d5e6bb1c240d02cf968972be37`
+<br><br>
+<h2>Sega 32X</h2>
+
+Code example
+
+```
+<div style="width:640px;height:480px;max-width:100%">
+        <div id="game"></div>
+      </div>
+<script type="text/javascript">
+    EJS_player = '#game';
+    EJS_gameUrl = ''; // Url to Game rom
+    EJS_core = 'sega32x';
+    EJS_pathtodata = 'data/'; //path to all of the wasm and js files. MUST all be in the same directory!! Must end with /
+</script>
+<script src="data/loader.js"></script>
+```
+
+I do not know the file extension limits for this system.
+
+There is no bios for this system
+<br><br>
+<h2>Atari Jaguar</h2>
+
+Code example
+
+```
+<div style="width:640px;height:480px;max-width:100%">
+        <div id="game"></div>
+      </div>
+<script type="text/javascript">
+    EJS_player = '#game';
+    EJS_gameUrl = ''; // Url to Game rom
+    EJS_core = 'jaguar';
+    EJS_pathtodata = 'data/'; //path to all of the wasm and js files. MUST all be in the same directory!! Must end with /
+</script>
+<script src="data/loader.js"></script>
+```
+
+I do not know the file extension limits for this system.
+
+There is no bios for this system
+<br><br>
+<h2>Neo Geo Poket</h2>
+
+Code example
+
+```
+<div style="width:640px;height:480px;max-width:100%">
+        <div id="game"></div>
+      </div>
+<script type="text/javascript">
+    EJS_player = '#game';
+    EJS_gameUrl = ''; // Url to Game rom
+    EJS_core = 'ngp';
+    EJS_pathtodata = 'data/'; //path to all of the wasm and js files. MUST all be in the same directory!! Must end with /
+</script>
+<script src="data/loader.js"></script>
+```
+
+I do not know the file extension limits for this system.
+
+There is no bios for this system
+<br><br>
+<h2>Sega Game Gear</h2>
+
+Code example
+
+```
+<div style="width:640px;height:480px;max-width:100%">
+        <div id="game"></div>
+      </div>
+<script type="text/javascript">
+    EJS_player = '#game';
+    EJS_gameUrl = ''; // Url to Game rom
+    EJS_core = 'segaGG';
+    EJS_pathtodata = 'data/'; //path to all of the wasm and js files. MUST all be in the same directory!! Must end with /
+</script>
+<script src="data/loader.js"></script>
+```
+
+I do not know the file extension limits for this system.
+
+GameGear BIOS (bootrom) - Optional	`672e104c3be3a238301aceffc3b23fd6`
+<br><br>
+<h2>Sega Saturn</h2>
+
+Code example
+
+```
+<div style="width:640px;height:480px;max-width:100%">
+        <div id="game"></div>
+      </div>
+<script type="text/javascript">
+    EJS_player = '#game';
+    EJS_biosUrl = ''; // Url to Bios file
+    EJS_gameUrl = ''; // Url to Game rom
+    EJS_core = 'segaSaturn';
+    EJS_pathtodata = 'data/'; //path to all of the wasm and js files. MUST all be in the same directory!! Must end with /
+</script>
+<script src="data/loader.js"></script>
+```
+
+I do not know the file extension limits for this system.
+
+Saturn BIOS - Optional	`af5828fdff51384f99b3c4926be27762`
+<br><br>
+<h2>Atari 7800</h2>
+
+Code example
+
+```
+<div style="width:640px;height:480px;max-width:100%">
+        <div id="game"></div>
+      </div>
+<script type="text/javascript">
+    EJS_player = '#game';
+    EJS_gameUrl = ''; // Url to Game rom
+    EJS_core = 'atari7800';
+    EJS_pathtodata = 'data/'; //path to all of the wasm and js files. MUST all be in the same directory!! Must end with /
+</script>
+<script src="data/loader.js"></script>
+```
+
+I do not know the file extension limits for this system.
+
+There is no bios for this system
+<br><br>
+<h2>Wanderswan | Color</h2>
+
+Code example
+
+```
+<div style="width:640px;height:480px;max-width:100%">
+        <div id="game"></div>
+      </div>
+<script type="text/javascript">
+    EJS_player = '#game';
+    EJS_gameUrl = ''; // Url to Game rom
+    EJS_core = 'ws';
+    EJS_pathtodata = 'data/'; //path to all of the wasm and js files. MUST all be in the same directory!! Must end with /
+</script>
+<script src="data/loader.js"></script>
+```
+
+I do not know the file extension limits for this system.
+
+There is no bios for this system
+<br><br>
+<h2>TurboGrafs-16 | PC Engine</h2>
+
+Code example
+
+```
+<div style="width:640px;height:480px;max-width:100%">
+        <div id="game"></div>
+      </div>
+<script type="text/javascript">
+    EJS_player = '#game';
+    EJS_biosUrl = ''; // Url to Bios file
+    EJS_gameUrl = ''; // Url to Game rom
+    EJS_core = 'pce';
+    EJS_pathtodata = 'data/'; //path to all of the wasm and js files. MUST all be in the same directory!! Must end with /
+</script>
+<script src="data/loader.js"></script>
+```
+
+I do not know the file extension limits for this system.
+
+syscard3.pce	Super CD-ROM2 System V3.xx - Required	`38179df8f4ac870017db21ebcbf53114`
+<br><br>
+<h2>Arcade</h2>
+
+Code example
+
+```
+<div style="width:640px;height:480px;max-width:100%">
+        <div id="game"></div>
+      </div>
+<script type="text/javascript">
+    EJS_player = '#game';
+    EJS_biosUrl = ''; // Url to Bios file
+    EJS_gameUrl = ''; // Url to Game rom
+    EJS_core = 'arcade';
+    EJS_pathtodata = 'data/'; //path to all of the wasm and js files. MUST all be in the same directory!! Must end with /
+</script>
+<script src="data/loader.js"></script>
+```
+
+Use only FBA v0.2.97.42 ROMs set
+Important! all roms must use the same name at support list with extension .zip
+
+neogeo.zip	Required for Neo Geo Games	        `410c65b2debdf4f2dac9ea2b23aa496e`
+pgm.zip	    Required for IGS Games	            `653e991a39e867354d090c3394157d1c`
+isgsm.zip	ISG Selection Master Type 2006 BIOS	`4a56d56e2219c5e2b006b66a4263c01c`

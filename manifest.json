@@ -1,8 +1,8 @@
 {
-  "name": "Legend of zelda, a link to the past.",
-  "description": "Is video game.",
-  "version": "0.5",
-  "content_security_policy": "script-src 'self' 'unsafe-eval' 'sha256-t2rykASManYUR/vLgxW5TKERDu3JUqkpSIRntKcYNtc='",
+  "name": "emulatorjs",
+  "description": "emulatorjs",
+  "version": "0.4.19",
+  "content_security_policy": "script-src 'self' 'unsafe-eval'",
   "manifest_version": 2,
   "background": {
     "scripts": ["./background.js"]
