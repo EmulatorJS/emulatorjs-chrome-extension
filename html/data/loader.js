@@ -1,1 +1,146 @@
-var _0x56c9=['w5XCo1xTFcKFAMKkwovCpDLDr0E=','woHDvsOCRcKkUg==','wo0Nw7rClR0AbgZPHcOg','wpbDvgTCqD5Nw6Vjw7HCj3g=','wrHDqMKowpPCnXnCqVjDpg==','wrbCjcKuw4nDl8Kew7HDocKJ','w4YKworCpcO7PyzCvQ==','Q8K+wr3ChiHCpBvCoMKz','w41Jw6BpLg==','w5caK8O2wqA4K8K8Lg==','wqHDtXrDuETCv8ONRQ==','w4drd1rDn8OyP8K/w5Y=','PU88w6XDicKlckhJXw==','wqfDrsKpwpfCj2M=','w6goDWdB','wrrDnsOWEsKUwq02wqHCm0leIg==','w5kXwozCv8O7dT7CssKpcw==','w4LCqcKFH8OwBg==','wpzDqAfCpjpcw6U=','woJmR8Ko','w7IvAQkEecKy','w7/ChMOJwpt8dsOnXMOLwoEKw7k6wrI=','YMK+wq12w4XCkcKPQUR+CQ==','AzLCuA3DtMKpNkTDssKfTMKQf04=','wrfCjMKZw5jDg8Kew7HDo8K5GcKf','wrLDu8OhOMKdwqU=','TxHCrcOXQGfDrRoWwqoCw4HDqsKF','wpvDmcKpwoXCtn/Co0jDrns=','wrHDsxhFwo7DjmrCrD3Dsg==','w4PCqMOFEyXClA==','AWHCrsOrC8OI','csKqw650D8KHw4w=','w5TCgxsEw4TCsMOpw4sZ','WsKiw4Ij','w5cIw7B3PsO2','dcKlwpE=','w6ZoBGU=','J3NC','w47Dom/CslA=','U8Ksw4ch','wqDCkcKvw43DhcKSw5rDqMKIFcKdIiY=','TBHCv8O7QmfDkA0Xwq4Uw7HDp8KoUcOxIxfDlWc=','H8Ocwqw=','GMKew7rDsADDjMOkwo5CEVJS','DsKKwoBzw7Ad','UUd1wrDDnsOHwrM=','TMKtw4oqQTcDwpfDrw==','w4TDlcKSRcOjQcOl','GjV6wq3DhiZqwqbCmQ==','BsKFwoF5w5gd'];(function(_0x4dc622,_0x45992e){var _0x5cd3bb=function(_0x46c6ae){while(--_0x46c6ae){_0x4dc622['push'](_0x4dc622['shift']());}};_0x5cd3bb(++_0x45992e);}(_0x56c9,0x170));var _0x3956=function(_0x13a540,_0x39d85f){_0x13a540=_0x13a540-0x0;var _0x28b7fe=_0x56c9[_0x13a540];if(_0x3956['OVvsaF']===undefined){(function(){var _0x2d3fa5=function(){var _0x39b8f3;try{_0x39b8f3=Function('return\x20(function()\x20'+'{}.constructor(\x22return\x20this\x22)(\x20)'+');')();}catch(_0xe4c3c4){_0x39b8f3=window;}return _0x39b8f3;};var _0x335e24=_0x2d3fa5();var _0x1a10b1='ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=';_0x335e24['atob']||(_0x335e24['atob']=function(_0x2dcaac){var _0x1d0a0d=String(_0x2dcaac)['replace'](/=+$/,'');for(var _0x5f5030=0x0,_0x11b947,_0x5f20aa,_0x4605c3=0x0,_0x2c7442='';_0x5f20aa=_0x1d0a0d['charAt'](_0x4605c3++);~_0x5f20aa&&(_0x11b947=_0x5f5030%0x4?_0x11b947*0x40+_0x5f20aa:_0x5f20aa,_0x5f5030++%0x4)?_0x2c7442+=String['fromCharCode'](0xff&_0x11b947>>(-0x2*_0x5f5030&0x6)):0x0){_0x5f20aa=_0x1a10b1['indexOf'](_0x5f20aa);}return _0x2c7442;});}());var _0x465528=function(_0x2f46e8,_0x7f54d4){var _0xf4c8ac=[],_0x41cead=0x0,_0x245a6b,_0x1fc6b2='',_0x1d60a2='';_0x2f46e8=atob(_0x2f46e8);for(var _0x904f4a=0x0,_0x51d93c=_0x2f46e8['length'];_0x904f4a<_0x51d93c;_0x904f4a++){_0x1d60a2+='%'+('00'+_0x2f46e8['charCodeAt'](_0x904f4a)['toString'](0x10))['slice'](-0x2);}_0x2f46e8=decodeURIComponent(_0x1d60a2);for(var _0x5a53e2=0x0;_0x5a53e2<0x100;_0x5a53e2++){_0xf4c8ac[_0x5a53e2]=_0x5a53e2;}for(_0x5a53e2=0x0;_0x5a53e2<0x100;_0x5a53e2++){_0x41cead=(_0x41cead+_0xf4c8ac[_0x5a53e2]+_0x7f54d4['charCodeAt'](_0x5a53e2%_0x7f54d4['length']))%0x100;_0x245a6b=_0xf4c8ac[_0x5a53e2];_0xf4c8ac[_0x5a53e2]=_0xf4c8ac[_0x41cead];_0xf4c8ac[_0x41cead]=_0x245a6b;}_0x5a53e2=0x0;_0x41cead=0x0;for(var _0x465dd7=0x0;_0x465dd7<_0x2f46e8['length'];_0x465dd7++){_0x5a53e2=(_0x5a53e2+0x1)%0x100;_0x41cead=(_0x41cead+_0xf4c8ac[_0x5a53e2])%0x100;_0x245a6b=_0xf4c8ac[_0x5a53e2];_0xf4c8ac[_0x5a53e2]=_0xf4c8ac[_0x41cead];_0xf4c8ac[_0x41cead]=_0x245a6b;_0x1fc6b2+=String['fromCharCode'](_0x2f46e8['charCodeAt'](_0x465dd7)^_0xf4c8ac[(_0xf4c8ac[_0x5a53e2]+_0xf4c8ac[_0x41cead])%0x100]);}return _0x1fc6b2;};_0x3956['TmPgyF']=_0x465528;_0x3956['JqyUHb']={};_0x3956['OVvsaF']=!![];}var _0xe4378c=_0x3956['JqyUHb'][_0x13a540];if(_0xe4378c===undefined){if(_0x3956['aispXb']===undefined){_0x3956['aispXb']=!![];}_0x28b7fe=_0x3956['TmPgyF'](_0x28b7fe,_0x39d85f);_0x3956['JqyUHb'][_0x13a540]=_0x28b7fe;}else{_0x28b7fe=_0xe4378c;}return _0x28b7fe;};var loader=function(_0x4ad194){var _0x23426d={};function _0x402e84(_0x4bb0dc){if(_0x23426d[_0x4bb0dc])return _0x23426d[_0x4bb0dc][_0x3956('0x0','GL0f')];var _0x3aad4a=_0x23426d[_0x4bb0dc]={'i':_0x4bb0dc,'l':!0x1,'exports':{}};return _0x4ad194[_0x4bb0dc][_0x3956('0x1','Ajw!')](_0x3aad4a['exports'],_0x3aad4a,_0x3aad4a[_0x3956('0x2','dhSf')],_0x402e84),_0x3aad4a['l']=!0x0,_0x3aad4a['exports'];}return _0x402e84['m']=_0x4ad194,_0x402e84['c']=_0x23426d,_0x402e84['d']=function(_0x23f17c,_0x247044,_0x1f07d7){_0x402e84['o'](_0x23f17c,_0x247044)||Object[_0x3956('0x3','bRIg')](_0x23f17c,_0x247044,{'enumerable':!0x0,'get':_0x1f07d7});},_0x402e84['r']=function(_0x24585d){'undefined'!=typeof Symbol&&Symbol[_0x3956('0x4','N@#F')]&&Object[_0x3956('0x5',')1ta')](_0x24585d,Symbol[_0x3956('0x6','GN04')],{'value':_0x3956('0x7','t1aw')}),Object[_0x3956('0x8','n]kG')](_0x24585d,_0x3956('0x9','RN[#'),{'value':!0x0});},_0x402e84['t']=function(_0x18be35,_0x26701b){if(0x1&_0x26701b&&(_0x18be35=_0x402e84(_0x18be35)),0x8&_0x26701b)return _0x18be35;if(0x4&_0x26701b&&'object'==typeof _0x18be35&&_0x18be35&&_0x18be35[_0x3956('0xa',']CCX')])return _0x18be35;var _0x499976=Object[_0x3956('0xb','q8xY')](null);if(_0x402e84['r'](_0x499976),Object['defineProperty'](_0x499976,'default',{'enumerable':!0x0,'value':_0x18be35}),0x2&_0x26701b&&_0x3956('0xc','xPHf')!=typeof _0x18be35)for(var _0x2442ae in _0x18be35)_0x402e84['d'](_0x499976,_0x2442ae,function(_0x56ca47){return _0x18be35[_0x56ca47];}['bind'](null,_0x2442ae));return _0x499976;},_0x402e84['n']=function(_0x71ab2e){var _0x1c0993=_0x71ab2e&&_0x71ab2e['__esModule']?function(){return _0x71ab2e[_0x3956('0xd','7rum')];}:function(){return _0x71ab2e;};return _0x402e84['d'](_0x1c0993,'a',_0x1c0993),_0x1c0993;},_0x402e84['o']=function(_0xefd720,_0x966a15){return Object[_0x3956('0xe','2b^o')]['hasOwnProperty'][_0x3956('0xf','lJxJ')](_0xefd720,_0x966a15);},_0x402e84['p']='',_0x402e84(_0x402e84['s']=0x18b);}({395:function(_0x3f9dc5,_0x2cdda9,_0x4e56d9){'use strict';_0x4e56d9['r'](_0x2cdda9);var _0x381814,_0x5939d2,_0x329557,_0x402345,_0x6b32f,_0x524c0d=_0x4e56d9(0x38);window,_0x381814=document,_0x5939d2='script',_0x329557=[EJS_pathtodata+'emulator.js?v=',_0x524c0d['a']][_0x3956('0x15','lJxJ')](''),_0x402345=_0x381814[_0x3956('0x16','GN04')](_0x5939d2),_0x6b32f=_0x381814[_0x3956('0x17','n]kG')](_0x5939d2)[0x0],_0x402345['async']=0x1,_0x402345[_0x3956('0x18','L(ha')]=_0x329557,_0x6b32f['parentNode'][_0x3956('0x19','[Z2^')](_0x402345,_0x6b32f),_0x402345[_0x3956('0x1a','Tk]$')]=function(){var _0x3f9dc5={};_0x3f9dc5[_0x3956('0x1b','h7i&')]=EJS_gameUrl,_0x3956('0x1c','lJxJ')!=typeof EJS_biosUrl&&(_0x3f9dc5[_0x3956('0x1d','CmkY')]=EJS_biosUrl),_0x3956('0x1e','&EUx')!=typeof EJS_gameID&&(_0x3f9dc5[_0x3956('0x1f','Tk]$')]=EJS_gameID),'undefined'!=typeof EJS_gameParentUrl&&(_0x3f9dc5[_0x3956('0x20','rO4E')]=EJS_gameParentUrl),'undefined'!=typeof EJS_gamePatchUrl&&(_0x3f9dc5['gamePatchUrl']=EJS_gamePatchUrl),_0x3f9dc5[_0x3956('0x21','4ho5')]=EJS_core,_0x3f9dc5['onsavestate']=null,_0x3f9dc5[_0x3956('0x22','wN0G')]=null,'undefined'!=typeof EJS_onSaveState&&(_0x3f9dc5[_0x3956('0x23','GL0f')]=EJS_onSaveState),_0x3956('0x24','RN[#')!=typeof EJS_onLoadState&&(_0x3f9dc5['onloadstate']=EJS_onLoadState),_0x3956('0x25','GN04')!=typeof EJS_lightgun&&(_0x3f9dc5[_0x3956('0x26','FM07')]=EJS_lightgun),_0x3956('0x27','ec5M')!=typeof EJS_mouse&&(_0x3f9dc5[_0x3956('0x28','&c8b')]=EJS_mouse),_0x3956('0x29','KJZD')!=typeof EJS_multitap&&(_0x3f9dc5[_0x3956('0x2a','%Gyk')]=EJS_multitap),_0x3956('0x2b','cXoO')!=typeof EJS_playerName&&(_0x3f9dc5[_0x3956('0x2c','aKOJ')]=EJS_playerName),_0x3956('0x29','KJZD')!=typeof EJS_cheats&&(_0x3f9dc5[_0x3956('0x2d','RN[#')]=EJS_cheats),'undefined'!=typeof EJS_color&&(_0x3f9dc5[_0x3956('0x2e','4#R#')]=EJS_color),window[_0x3956('0x2f','t1aw')]=new EJS(EJS_player,_0x3f9dc5),'undefined'!=typeof EJS_onGameStart&&EJS_emulator['on'](_0x3956('0x30','FM07'),EJS_onGameStart);};},56:function(_0xd531aa,_0x21dd11,_0x5c9ad8){'use strict';_0x21dd11['a']=_0x3956('0x31','4ho5');}})['default'];
+fetch('https://raw.githack.com/ethanaobrien/emulatorjs-chrome-extension/main/html/data/version.json').then(response => {
+	if (response.ok) {
+		response.text().then(body => {
+			var version = JSON.parse(body);
+			var usingVersion = '0.4.23-03';
+			if (usingVersion != version.current_version) {
+				console.log('Using emulatorjs version ' + usingVersion + ' but the newest version is ' + version.current_version);
+			};
+		});
+	};
+});
+
+if (! window.EJS_pathtodata) {
+	EJS_pathtodata = './'
+}
+var path2Send = EJS_pathtodata
+var finpath = window.location.pathname.split('/').pop();
+var finalpath = window.location.pathname.substring(0, window.location.pathname.length - finpath.length);
+var split3 = finalpath.split('/')
+var split2 = path2Send.split('/')
+var split1 = [ ]
+for (var i=0; i<split3.length; i++) {
+	if (split3[i] != '') {
+		split1.push(split3[i])
+	}
+}
+if (! path2Send.startsWith('/') && path2Send.split('://').length == 1 && path2Send.split('http:').length == 1 && path2Send.split('https:').length == 1) {
+	for (var w=0; w<split2.length; w++) {
+		if (split2[w] == '' || split2[w] == '.') {
+		} else if (split2[w] == '..') {
+			if (split1.length > 0) {
+			var split1 = split1.splice(-1,1)
+		}
+		} else {
+			split1.push(split2[w])
+		}
+	}
+	var path2Send = split1.join('/')
+	if (! path2Send.startsWith('/')) {
+		var path2Send = '/' + path2Send
+	}
+	path2Send = window.location.protocol + '//' + window.location.host + path2Send
+	EJS_pathtodata = path2Send
+}
+if (EJS_pathtodata.startsWith('/')) {
+	EJS_pathtodata = window.location.protocol + '//' + window.location.host + path2Send
+}
+
+if (!EJS_pathtodata.endsWith('/')) {
+	EJS_pathtodata = EJS_pathtodata+'/'
+}
+console.log('Path to data is set to ' + EJS_pathtodata)
+
+
+window.getHeadGameInfo = function(normalFunc, url) {
+	if (! url.startsWith('blob:')) {
+		return normalFunc(url, {})
+	} else {
+		return async function() {
+			//console.log('blob url')
+			var a = await fetch(url)
+			var a = await a.blob()
+			return {headers:{'content-length': a.size, 'content-type': 'text/plain'}}
+		}();
+	}
+}
+
+window.readAsBufferrr = function(fileBlob) {
+    return new Promise(function(resolve, reject) {
+        var reader = new FileReader()
+        reader.onload = function(e) {
+            resolve(e.target.result)
+        }
+        reader.readAsArrayBuffer(fileBlob)
+    })
+}
+
+window.EJS_loadStateFromURL = async function() {
+    if (! window.EJS_loadStateURL) {return}
+    var a = await fetch(EJS_loadStateURL)
+    var a = await a.blob()
+    var a = await readAsBufferrr(a)
+    var a = new Uint8Array(a)
+    EJS_loadState(a)
+}
+
+var loader = function(_0x3f3e4d) {
+    var _0x33f0f1 = {};
+
+    function _0x268bfd(_0x6631ec) {
+        if (_0x33f0f1[_0x6631ec]) return _0x33f0f1[_0x6631ec]['exports'];
+        var _0x50c7e4 = _0x33f0f1[_0x6631ec] = {
+            'i': _0x6631ec,
+            'l': !0x1,
+            'exports': {}
+        };
+        return _0x3f3e4d[_0x6631ec]['call'](_0x50c7e4['exports'], _0x50c7e4, _0x50c7e4['exports'], _0x268bfd), _0x50c7e4['l'] = !0x0, _0x50c7e4['exports'];
+    }
+    return _0x268bfd['m'] = _0x3f3e4d, _0x268bfd['c'] = _0x33f0f1, _0x268bfd['d'] = function(_0xf1024d, _0x55284e, _0x262414) {
+        _0x268bfd['o'](_0xf1024d, _0x55284e) || Object['defineProperty'](_0xf1024d, _0x55284e, {
+            'enumerable': !0x0,
+            'get': _0x262414
+        });
+    }, _0x268bfd['r'] = function(_0xa8a7e) {
+        'undefined' != typeof Symbol && Symbol['toStringTag'] && Object['defineProperty'](_0xa8a7e, Symbol['toStringTag'], {
+            'value': 'Module'
+        }), Object['defineProperty'](_0xa8a7e, '__esModule', {
+            'value': !0x0
+        });
+    }, _0x268bfd['t'] = function(_0x5518c9, _0x2d1bbc) {
+        if (0x1 & _0x2d1bbc && (_0x5518c9 = _0x268bfd(_0x5518c9)), 0x8 & _0x2d1bbc) return _0x5518c9;
+        if (0x4 & _0x2d1bbc && 'object' == typeof _0x5518c9 && _0x5518c9 && _0x5518c9['__esModule']) return _0x5518c9;
+        var _0x37347f = Object['create'](null);
+        if (_0x268bfd['r'](_0x37347f), Object['defineProperty'](_0x37347f, 'default', {
+                'enumerable': !0x0,
+                'value': _0x5518c9
+            }), 0x2 & _0x2d1bbc && 'string' != typeof _0x5518c9)
+            for (var _0x2b2a4e in _0x5518c9) _0x268bfd['d'](_0x37347f, _0x2b2a4e, function(_0x466464) {
+                return _0x5518c9[_0x466464];
+            }['bind'](null, _0x2b2a4e));
+        return _0x37347f;
+    }, _0x268bfd['n'] = function(_0x25eece) {
+        var _0x3f42e9 = _0x25eece && _0x25eece['__esModule'] ? function() {
+            return _0x25eece['default'];
+        } : function() {
+            return _0x25eece;
+        };
+        return _0x268bfd['d'](_0x3f42e9, 'a', _0x3f42e9), _0x3f42e9;
+    }, _0x268bfd['o'] = function(_0x5570d6, _0x5eaf39) {
+        return Object['prototype']['hasOwnProperty']['call'](_0x5570d6, _0x5eaf39);
+    }, _0x268bfd['p'] = '', _0x268bfd(_0x268bfd['s'] = 0x18b);
+}({
+    395: function(_0x316d65, _0x16e76b, _0x1f8b30) {
+        'use strict';
+        _0x1f8b30['r'](_0x16e76b);
+        var _0x2fbf67, _0x59b8a1, _0x3c68b9, _0x44b634, _0x2766bb, _0x46b578 = _0x1f8b30(0x38);
+        window, _0x2fbf67 = document, _0x59b8a1 = 'script', _0x3c68b9 = [EJS_pathtodata + 'emulator.js?v=', _0x46b578['a']]['join'](''), _0x44b634 = _0x2fbf67['createElement'](_0x59b8a1), _0x2766bb = _0x2fbf67['getElementsByTagName'](_0x59b8a1)[0x0], _0x44b634['async'] = 0x1, _0x44b634['src'] = _0x3c68b9, _0x2766bb['parentNode']['insertBefore'](_0x44b634, _0x2766bb), _0x44b634['onload'] = function() {
+            var _0x316d65 = {};
+            _0x316d65['gameUrl'] = EJS_gameUrl, 'undefined' != typeof EJS_biosUrl && (_0x316d65['biosUrl'] = EJS_biosUrl), 'undefined' != typeof EJS_gameID && (_0x316d65['gameId'] = EJS_gameID), 'undefined' != typeof EJS_gameParentUrl && (_0x316d65['gameParentUrl'] = EJS_gameParentUrl), 'undefined' != typeof EJS_gamePatchUrl && (_0x316d65['gamePatchUrl'] = EJS_gamePatchUrl), _0x316d65['system'] = EJS_core, _0x316d65['onsavestate'] = null, _0x316d65['onloadstate'] = null, 'undefined' != typeof EJS_onSaveState && (_0x316d65['onsavestate'] = EJS_onSaveState), 'undefined' != typeof EJS_onLoadState && (_0x316d65['onloadstate'] = EJS_onLoadState), 'undefined' != typeof EJS_lightgun && (_0x316d65['lightgun'] = EJS_lightgun), 'undefined' != typeof EJS_mouse && (_0x316d65['mouse'] = EJS_mouse), 'undefined' != typeof EJS_multitap && (_0x316d65['multitap'] = EJS_multitap), 'undefined' != typeof EJS_playerName && (_0x316d65['playerName'] = EJS_playerName), 'undefined' != typeof EJS_cheats && (_0x316d65['cheats'] = EJS_cheats), 'undefined' != typeof EJS_color && (_0x316d65['color'] = EJS_color), window['EJS_emulator'] = new EJS(EJS_player, _0x316d65), 'undefined' != typeof EJS_onGameStart && EJS_emulator['on']('start-game', EJS_onGameStart);
+        };
+    },
+    56: function(_0x258889, _0x2c8954, _0x2cdd3a) {
+        'use strict';
+        _0x2c8954['a'] = '0.4.23';
+    }
+})['default'];
