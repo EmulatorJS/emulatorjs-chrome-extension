@@ -1,4 +1,4 @@
-fetch('https://raw.githack.com/ethanaobrien/emulatorjs/main/data/version.json').then(response => {
+fetch('https://raw.githack.com/ethanaobrien/emulatorjs-chrome-extension/main/html/data/version.json').then(response => {
 	if (response.ok) {
 		response.text().then(body => {
 			var version = JSON.parse(body);
